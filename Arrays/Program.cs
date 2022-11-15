@@ -6,7 +6,7 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Eres el mejor");
+            Console.WriteLine("Programar es mi pasion");
         }
     }
 }

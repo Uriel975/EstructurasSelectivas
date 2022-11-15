@@ -6,7 +6,21 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Programar es mi pasion desde primer cuatri! ");
+            // 23.While 1
+            int con = 1;
+            string cadenaNumero;
+            int numero, suma = 0;
+
+            while (con <= 5)
+            {
+                Console.WriteLine("Ingrese numero" + con);
+                cadenaNumero = Console.ReadLine();
+                numero = int.Parse(cadenaNumero);
+                suma += numero;
+                con++;
+
+            }
+            Console.WriteLine("Suma es: " + suma );
         }
     }
 }

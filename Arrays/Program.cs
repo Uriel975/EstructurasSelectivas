@@ -25,6 +25,7 @@ namespace Arrays
                 Console.WriteLine("El numero Triple es: " + numeroTriple);
 
             }
+            //cierre
             Console.WriteLine("Finalizo");
 
         }

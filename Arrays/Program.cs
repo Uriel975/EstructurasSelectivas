@@ -6,7 +6,27 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Nuevos cambios");
+            ///24.While 2
+            int numero, numeroTriple;
+            string numeroCadena;
+
+            Console.WriteLine("Ingrese un numero");
+            numeroCadena = Console.ReadLine();
+            numero = int.Parse(numeroCadena);
+            numeroTriple = numero * 3;
+            Console.WriteLine("El numero Triple es: " + numeroTriple);
+            //numero es diferente de 0
+            while (numero != 0)
+            {
+                Console.WriteLine("Ingrese otro numero");
+                numeroCadena = Console.ReadLine();
+                numero = int.Parse(numeroCadena);
+                numeroTriple = numero * 3;
+                Console.WriteLine("El numero Triple es: " + numeroTriple);
+
+            }
+            Console.WriteLine("Finalizo");
+
         }
     }
 }

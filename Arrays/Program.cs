@@ -6,39 +6,42 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            
+            string[] nombres = { "Jose", "Daniel", "Miguel" };
 
-            for (int i = 1; i <= 100; i++)
-            {
-                if( (i%3)== 0 && (i % 5) == 0)
-                {
-                    Console.WriteLine($"{i}");
-                    //Console.WriteLine("TresCinco");
+            //Indice
+            Console.WriteLine("El numero de elementos son: " + nombres.Length);
+            Console.WriteLine("El Nombre es: " + nombres[1]);
 
-                }
-                else if ((i % 3)==0 )
-                {
-                    Console.WriteLine($"{i}");
-                    //Console.WriteLine("TRES");
-                }
-                else if ((i % 5) == 0)
-                {
-                    Console.WriteLine($"{i}");
-                    //Console.WriteLine("CINCO");
-                }
-                else
-                {
-                    Console.WriteLine( $"{i}");
-                }
+            Console.ReadLine();
 
-            }
-            
-            //string[] nombres = {"Jose", "Daniel", "Miguel"};
 
-            ////Indice
-            //Console.WriteLine("El Nombre es: " + nombres[2]);
 
-            //Console.ReadLine();
+
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    if( (i%3)== 0 && (i % 5) == 0)
+            //    {
+            //        Console.WriteLine($"{i}");
+            //        //Console.WriteLine("TresCinco");
+
+            //    }
+            //    else if ((i % 3)==0 )
+            //    {
+            //        Console.WriteLine($"{i}");
+            //        //Console.WriteLine("TRES");
+            //    }
+            //    else if ((i % 5) == 0)
+            //    {
+            //        Console.WriteLine($"{i}");
+            //        //Console.WriteLine("CINCO");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine( $"{i}");
+            //    }
+
+            //}
+
 
         }
     }

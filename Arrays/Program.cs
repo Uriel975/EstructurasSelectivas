@@ -6,11 +6,28 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            string[] nombres = { "Jose", "Daniel", "Miguel" };
+            //===Array sirve para almacenar varios valores
+            //==Con enteros
+            int[] notas = { 15, 12, 4, 7, 8, 9 };
+            Console.WriteLine("total de notas " + notas.Length);
+            Console.WriteLine("primera nota " + notas[1]);
 
-            //Indice
-            Console.WriteLine("El numero de elementos son: " + nombres.Length);
-            Console.WriteLine("El Nombre es: " + nombres[1]);
+            //=== DINAMICO ===
+            Console.WriteLine("La ultima nota: " + notas[notas.Length-1]);
+
+            //=== ESTATICO ===
+            //Console.WriteLine("Ultima nota es " + notas[5]);
+
+
+            //string[] nombres = { "Jose", "Daniel", "Miguel" };
+
+            ////Indice
+            //Console.WriteLine("El numero de elementos son: " + nombres.Length);
+            //Console.WriteLine("El primer Nombre es: " + nombres[1]);
+            //Console.WriteLine("El segundo nombre es: " + nombres[0]);
+
+            //===Cuando cuentas longitud inicia en 1.
+            //===cuando es indice inicia en 0
 
             Console.ReadLine();
 

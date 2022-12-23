@@ -9,9 +9,9 @@ namespace EstructurasSelectivas
             /// ====Ejercicios de practica==== ///
             //MULTIPLOS DE 5//
             //Console.WriteLine("Ingrese un numero");
-            //string numeroCadena = ( Console.ReadLine());
+            //string numeroCadena = (Console.ReadLine());
             //int numero = int.Parse(numeroCadena);
-            //if (numero %5==0)
+            //if (numero % 5 == 0)
             //{
             //    Console.WriteLine("Es multiplo de 5");
             //}
@@ -40,7 +40,7 @@ namespace EstructurasSelectivas
             //Console.WriteLine("El total es: " + total);
             //Console.ReadLine();
 
-            // EJERCICIO 3 
+            //EJERCICIO 3
             //Console.WriteLine("Ingrese el primer numero: ");
             //string cadenaNumero1 = Console.ReadLine();
             //decimal numero1 = decimal.Parse(cadenaNumero1);
@@ -50,13 +50,14 @@ namespace EstructurasSelectivas
             //Console.WriteLine("Ingrese un caracter + , - , * o /");
             //string operacion = Console.ReadLine();
             //decimal resultado = 0;
-            //switch (operacion) {
+            //switch (operacion)
+            //{
 
             //    case "+": resultado = numero1 + numero2; break;
             //    case "-": resultado = numero1 - numero2; break;
             //    case "*": resultado = numero1 * numero2; break;
             //    case "/": resultado = numero1 / numero2; break;
-            //    default: Console.WriteLine("Ocurrio un error :( , ingreso letra equivocada");break;
+            //    default: Console.WriteLine("Ocurrio un error :( , ingreso letra equivocada"); break;
 
             //}
             //Console.WriteLine("El resultado es: " + resultado);
